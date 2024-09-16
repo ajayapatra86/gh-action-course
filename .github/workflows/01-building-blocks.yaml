@@ -13,7 +13,7 @@ jobs:
         steps:
             - name: Failed step
               run: |
-                echo "i will exist"
-                exit 1
+                echo "i will succeed"
+                exit 0
             - name: Say goodbye
               run: echo "Goodby"
